@@ -1,0 +1,28 @@
+# AeroDamage — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Core deep learning ──────────────────────────────────────────────────────
+torch>=2.0.0
+torchvision>=0.15.0
+
+# ── Data & image processing ─────────────────────────────────────────────────
+Pillow>=9.5.0
+numpy>=1.24.0
+opencv-python>=4.8.0
+
+# ── Training utilities ───────────────────────────────────────────────────────
+tqdm>=4.65.0
+scikit-learn>=1.3.0
+
+# ── Visualization ────────────────────────────────────────────────────────────
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# ── API (optional — for the web dashboard) ───────────────────────────────────
+fastapi>=0.100.0
+uvicorn>=0.23.0
+python-multipart>=0.0.6
+
+# ── Notebook support ─────────────────────────────────────────────────────────
+jupyter>=1.0.0
+ipywidgets>=8.0.0

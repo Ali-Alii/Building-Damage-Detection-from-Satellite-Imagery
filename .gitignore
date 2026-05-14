@@ -1,0 +1,59 @@
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.so
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Model weights (large binary files — host on Drive/HuggingFace instead) ───
+models/*.pth
+models/*.pt
+models/*.bin
+models/*.onnx
+# Keep the placeholder and JSON history
+!models/.gitkeep
+!models/training_history.json
+
+# ── Dataset (never commit raw data) ──────────────────────────────────────────
+data/raw/
+data/processed/
+# Keep folder placeholders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# ── OS artifacts ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Logs & temp ───────────────────────────────────────────────────────────────
+*.log
+*.tmp
+runs/
+wandb/
+mlruns/
+
+# ── Generated outputs (optional — keep if you want results in the repo) ───────
+# assets/results/
